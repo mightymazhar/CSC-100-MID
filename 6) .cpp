@@ -21,8 +21,8 @@ int main()                     // Main function.
     int quotient = numerator / denominator;                //Enters a integer with formula for calculation of quotient
     int remainder = numerator % denominator;               //Enters a integer with formula for calculation of remainder
 
-    cout << endl << "quotient is: " << quotient <<endl;      // Uses the input of the user to create an output. // endl creates line gap.
-    cout << endl << "remainder is: " << remainder <<endl;    // Uses the input of the user to create an output. // endl creates line gap.
+    cout << endl << "Your quotient is: " << quotient <<endl;      // Uses the input of the user to create an output. // endl creates line gap.
+    cout << endl << "Your remainder is: " << remainder <<endl;    // Uses the input of the user to create an output. // endl creates line gap.
 
 
     return 0;                                                  // Terminates the program.
