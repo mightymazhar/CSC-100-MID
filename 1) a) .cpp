@@ -10,7 +10,7 @@ int main()                                      // Main function.
     cout << "Hello what is your name? " << endl;          // Text output asking for user's input. // endl creates line gap.
     cin >> name;                                          // Takes user's input.
 
-    cout << "Hi there " << name << "." << endl;           // Uses the input of the user to create an output.  // endl creates line gap.
+    cout << endl << "Hi there " << name << "." << endl;           // Uses the input of the user to create an output.  // endl creates line gap.
 
     return 0;                                            // Terminates the program.
 }                                                        // Ends the main function.
