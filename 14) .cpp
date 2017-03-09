@@ -1,13 +1,13 @@
-#include <iostream>
-#include <string>
-#include <cmath>
+#include <iostream> // creates library to input data
+#include <string> // creates library to store strings
+#include <cmath> // creates library to store floats
 
 using namespace std;
 
 int main ()
 
 {
-    float x;
+    float x; // includes integer values with decimal accuracy
     float y;
 
     cout << "Enter your x coordinate: ";
@@ -16,7 +16,7 @@ int main ()
     cout << endl << "Enter your y coordinate: ";
     cin >> y;
 
-    if ( x > 0 && y > 0 )
+    if ( x > 0 && y > 0 ) // sets condition for output by putting limits
     {
         cout << endl << "Your coordinate is in the 1st quadrant" << endl;
     }
