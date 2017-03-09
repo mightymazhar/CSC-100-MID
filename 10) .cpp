@@ -1,15 +1,15 @@
-#include <iostream>
-#include <string>
-#include <cmath>
+#include <iostream> //creates a library to store data
+#include <string> //creates library to store strings
+#include <cmath> // creates library to store floats
 
 using namespace std;
 
-int main ()
+int main () // main function
 
 {
-    string forename;
+    string forename;  // enters string input to library
     string surname;
-    int year;
+    int year;  // includes integer valur for year               
 
     cout << "What is your forename? " << endl;
     cin >> forename;
