@@ -1,13 +1,13 @@
-#include <iostream>
-#include <string>
-#include <cmath>
+#include <iostream> // creates library to store data
+#include <string> // creates library to store strings
+#include <cmath> // creates library to store floats
 
 using namespace std;
 
 int main ()
 
 {
-    float a;
+    float a; // enters integer digits with decimal accuracy
     float b;
     float c;
 
@@ -20,7 +20,7 @@ int main ()
     cout << endl << "enter a number c; ";
     cin >> c;
 
-    if ( a > b && a > c)
+    if ( a > b && a > c) // creates condition for output by putting limits
     {
         cout << endl << "The largest number among " << a << ", " << b << " and " << c << " is " << a << endl;
     }
